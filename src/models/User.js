@@ -20,11 +20,11 @@ export default class User {
 
   @observable isSubscriptionOwner = false;
 
-  @observable hasSubscription = false;
+  @observable hasSubscription = true;
 
-  @observable hadSubscription = false;
+  @observable hadSubscription = true;
 
-  @observable isPremium = false;
+  @observable isPremium = true;
 
   @observable beta = false;
 
